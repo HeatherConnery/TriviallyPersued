@@ -14,6 +14,8 @@
 		B67C0ACD1BF143DC00F68EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67C0ACB1BF143DC00F68EAE /* LaunchScreen.storyboard */; };
 		B67C0AD81BF143DC00F68EAE /* TriviallyPersuedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0AD71BF143DC00F68EAE /* TriviallyPersuedTests.swift */; };
 		B67C0AE31BF143DC00F68EAE /* TriviallyPersuedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0AE21BF143DC00F68EAE /* TriviallyPersuedUITests.swift */; };
+		B67C0AF41BF144A700F68EAE /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0AF31BF144A700F68EAE /* Trivia.swift */; settings = {ASSET_TAGS = (); }; };
+		B67C0AF61BF1588700F68EAE /* TriviaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0AF51BF1588700F68EAE /* TriviaTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B67C0ADE1BF143DC00F68EAE /* TriviallyPersuedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviallyPersuedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67C0AE21BF143DC00F68EAE /* TriviallyPersuedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviallyPersuedUITests.swift; sourceTree = "<group>"; };
 		B67C0AE41BF143DC00F68EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B67C0AF31BF144A700F68EAE /* Trivia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		B67C0AF51BF1588700F68EAE /* TriviaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				B67C0AC21BF143DC00F68EAE /* AppDelegate.swift */,
-				B67C0AC41BF143DC00F68EAE /* ViewController.swift */,
-				B67C0AC61BF143DC00F68EAE /* Main.storyboard */,
+				B67C0AF11BF1443700F68EAE /* Storyboards */,
+				B67C0AF01BF1442C00F68EAE /* ViewControllers */,
+				B67C0AF21BF1444500F68EAE /* Models */,
 				B67C0AC91BF143DC00F68EAE /* Assets.xcassets */,
-				B67C0ACB1BF143DC00F68EAE /* LaunchScreen.storyboard */,
 				B67C0ACE1BF143DC00F68EAE /* Info.plist */,
+				B67C0AF51BF1588700F68EAE /* TriviaTableViewCell.swift */,
 			);
 			path = TriviallyPersued;
 			sourceTree = "<group>";
@@ -123,6 +128,31 @@
 				B67C0AE41BF143DC00F68EAE /* Info.plist */,
 			);
 			path = TriviallyPersuedUITests;
+			sourceTree = "<group>";
+		};
+		B67C0AF01BF1442C00F68EAE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B67C0AC41BF143DC00F68EAE /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B67C0AF11BF1443700F68EAE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B67C0AC61BF143DC00F68EAE /* Main.storyboard */,
+				B67C0ACB1BF143DC00F68EAE /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B67C0AF21BF1444500F68EAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B67C0AF31BF144A700F68EAE /* Trivia.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B67C0AC51BF143DC00F68EAE /* ViewController.swift in Sources */,
+				B67C0AF41BF144A700F68EAE /* Trivia.swift in Sources */,
+				B67C0AF61BF1588700F68EAE /* TriviaTableViewCell.swift in Sources */,
 				B67C0AC31BF143DC00F68EAE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
