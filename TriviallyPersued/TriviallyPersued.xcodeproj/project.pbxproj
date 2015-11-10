@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B600FE3C1BF29CE1008F920B /* TriviaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B600FE3B1BF29CE1008F920B /* TriviaData.swift */; settings = {ASSET_TAGS = (); }; };
 		B67C0AC31BF143DC00F68EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0AC21BF143DC00F68EAE /* AppDelegate.swift */; };
 		B67C0AC51BF143DC00F68EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0AC41BF143DC00F68EAE /* ViewController.swift */; };
 		B67C0AC81BF143DC00F68EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67C0AC61BF143DC00F68EAE /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B600FE3B1BF29CE1008F920B /* TriviaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaData.swift; sourceTree = "<group>"; };
 		B67C0ABF1BF143DC00F68EAE /* TriviallyPersued.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviallyPersued.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67C0AC21BF143DC00F68EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B67C0AC41BF143DC00F68EAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				B67C0AF31BF144A700F68EAE /* Trivia.swift */,
+				B600FE3B1BF29CE1008F920B /* TriviaData.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B67C0AC51BF143DC00F68EAE /* ViewController.swift in Sources */,
+				B600FE3C1BF29CE1008F920B /* TriviaData.swift in Sources */,
 				B67C0AF41BF144A700F68EAE /* Trivia.swift in Sources */,
 				B67C0AF61BF1588700F68EAE /* TriviaTableViewCell.swift in Sources */,
 				B67C0AC31BF143DC00F68EAE /* AppDelegate.swift in Sources */,
@@ -515,6 +519,7 @@
 				B67C0AE91BF143DC00F68EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B67C0AEA1BF143DC00F68EAE /* Build configuration list for PBXNativeTarget "TriviallyPersuedTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				B67C0AEC1BF143DC00F68EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B67C0AED1BF143DC00F68EAE /* Build configuration list for PBXNativeTarget "TriviallyPersuedUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +537,7 @@
 				B67C0AEF1BF143DC00F68EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
