@@ -10,17 +10,8 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-   //var trivias = [Trivia]()
+    var triviaData  = TriviaData().triviaModel()
     
-//    //create an instance of our struct
-//    var triviaToronto = Trivia(name:"CN Tower",country:"Ontario",trivia:"Large Building")
-//    var triviaOttawa = Trivia(name: "Rideau Canal", country: "Ontario", trivia: "Great for skating")
-//    var triviaCalifornia = Trivia(name: "Orange County", country: "California", trivia: "Lots of oranges")
-//    var triviaComox  = Trivia(name: "HMCS Quadra", country: "British Columbia", trivia: "Very scary place")
-//    var triviaWinnipeg = Trivia(name: "Winterpeg", country: "Canada", trivia: "Cold is an understatement")
-//    var triviaUK = Trivia(name: "Britain", country: "UK", trivia: "Home to Dr. Who")
-//
-    var triviaData  = TriviaData()
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -29,7 +20,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 //       trivias += [triviaToronto,triviaOttawa,triviaCalifornia,triviaComox,triviaWinnipeg,triviaUK]
-       // let trivias = triviaData.triviaModel()
+       //let trivias = triviaData.triviaModel()
         //print("\(trivias)")
     }
 
@@ -39,7 +30,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return triviaData.triviaModel().count
+        
+        return triviaData.count
+        
+       
+        
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -48,7 +43,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         //cell.textLabel?.text = trivias[indexPath.row].name
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! TriviaTableViewCell
         
-        cell.triviaTitle.text = triviaData.trivias[indexPath.row].name
+        cell.triviaTitle.text = triviaData[indexPath.row].name
         return cell
     }
     

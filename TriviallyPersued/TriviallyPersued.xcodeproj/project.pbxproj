@@ -17,6 +17,7 @@
 		B67C0AE31BF143DC00F68EAE /* TriviallyPersuedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0AE21BF143DC00F68EAE /* TriviallyPersuedUITests.swift */; };
 		B67C0AF41BF144A700F68EAE /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0AF31BF144A700F68EAE /* Trivia.swift */; settings = {ASSET_TAGS = (); }; };
 		B67C0AF61BF1588700F68EAE /* TriviaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0AF51BF1588700F68EAE /* TriviaTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		B6E49DE71BF3EF210092616C /* TriviaMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E49DE61BF3EF210092616C /* TriviaMap.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B67C0AE41BF143DC00F68EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B67C0AF31BF144A700F68EAE /* Trivia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 		B67C0AF51BF1588700F68EAE /* TriviaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaTableViewCell.swift; sourceTree = "<group>"; };
+		B6E49DE61BF3EF210092616C /* TriviaMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				B67C0AC41BF143DC00F68EAE /* ViewController.swift */,
+				B6E49DE61BF3EF210092616C /* TriviaMap.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B67C0AC51BF143DC00F68EAE /* ViewController.swift in Sources */,
+				B6E49DE71BF3EF210092616C /* TriviaMap.swift in Sources */,
 				B600FE3C1BF29CE1008F920B /* TriviaData.swift in Sources */,
 				B67C0AF41BF144A700F68EAE /* Trivia.swift in Sources */,
 				B67C0AF61BF1588700F68EAE /* TriviaTableViewCell.swift in Sources */,
