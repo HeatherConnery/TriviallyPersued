@@ -17,6 +17,8 @@
 		B67C0AE31BF143DC00F68EAE /* TriviallyPersuedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0AE21BF143DC00F68EAE /* TriviallyPersuedUITests.swift */; };
 		B67C0AF41BF144A700F68EAE /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0AF31BF144A700F68EAE /* Trivia.swift */; settings = {ASSET_TAGS = (); }; };
 		B67C0AF61BF1588700F68EAE /* TriviaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0AF51BF1588700F68EAE /* TriviaTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		B6A9AC491BF5205A003BB4B6 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A9AC481BF5205A003BB4B6 /* MapPin.swift */; settings = {ASSET_TAGS = (); }; };
+		B6A9AC4C1BF524C0003BB4B6 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A9AC4B1BF524C0003BB4B6 /* Landmark.swift */; settings = {ASSET_TAGS = (); }; };
 		B6E49DE71BF3EF210092616C /* TriviaMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E49DE61BF3EF210092616C /* TriviaMap.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,8 @@
 		B67C0AE41BF143DC00F68EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B67C0AF31BF144A700F68EAE /* Trivia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 		B67C0AF51BF1588700F68EAE /* TriviaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaTableViewCell.swift; sourceTree = "<group>"; };
+		B6A9AC481BF5205A003BB4B6 /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		B6A9AC4B1BF524C0003BB4B6 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		B6E49DE61BF3EF210092616C /* TriviaMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,11 +111,11 @@
 			children = (
 				B67C0AC21BF143DC00F68EAE /* AppDelegate.swift */,
 				B67C0AF11BF1443700F68EAE /* Storyboards */,
+				B6A9AC4A1BF52085003BB4B6 /* ReusableViews */,
 				B67C0AF01BF1442C00F68EAE /* ViewControllers */,
 				B67C0AF21BF1444500F68EAE /* Models */,
 				B67C0AC91BF143DC00F68EAE /* Assets.xcassets */,
 				B67C0ACE1BF143DC00F68EAE /* Info.plist */,
-				B67C0AF51BF1588700F68EAE /* TriviaTableViewCell.swift */,
 			);
 			path = TriviallyPersued;
 			sourceTree = "<group>";
@@ -157,8 +161,18 @@
 			children = (
 				B67C0AF31BF144A700F68EAE /* Trivia.swift */,
 				B600FE3B1BF29CE1008F920B /* TriviaData.swift */,
+				B6A9AC481BF5205A003BB4B6 /* MapPin.swift */,
+				B6A9AC4B1BF524C0003BB4B6 /* Landmark.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		B6A9AC4A1BF52085003BB4B6 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				B67C0AF51BF1588700F68EAE /* TriviaTableViewCell.swift */,
+			);
+			name = ReusableViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +307,8 @@
 			files = (
 				B67C0AC51BF143DC00F68EAE /* ViewController.swift in Sources */,
 				B6E49DE71BF3EF210092616C /* TriviaMap.swift in Sources */,
+				B6A9AC491BF5205A003BB4B6 /* MapPin.swift in Sources */,
+				B6A9AC4C1BF524C0003BB4B6 /* Landmark.swift in Sources */,
 				B600FE3C1BF29CE1008F920B /* TriviaData.swift in Sources */,
 				B67C0AF41BF144A700F68EAE /* Trivia.swift in Sources */,
 				B67C0AF61BF1588700F68EAE /* TriviaTableViewCell.swift in Sources */,

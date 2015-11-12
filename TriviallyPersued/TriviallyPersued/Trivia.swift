@@ -13,5 +13,5 @@ struct Trivia {
     var name: String = ""
     var country: String = ""
     var trivia: String = ""
-    var address: String = ""
+    //var address: String = ""
 }
